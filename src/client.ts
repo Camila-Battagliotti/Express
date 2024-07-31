@@ -22,8 +22,7 @@ async function fetchData(params: {
 
 async function main() {
   const data = await fetchData({
-    url: "api",
-    // body: { id: 1 },
+    url: "api/students/2",
     method: "GET",
   });
 }

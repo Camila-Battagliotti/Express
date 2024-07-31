@@ -2,7 +2,10 @@
   "description": {
     "message": "Welcome to ADA's API!",
     "running": true,
-    "urls": ["/students", "/teachers"]
+    "urls": [
+      "/students",
+      "/teachers"
+    ]
   },
   "students": [
     {
@@ -32,6 +35,10 @@
       "name": "Tomás",
       "age": 55
     },
-    { "id": "c04277b7-170f-4cb4-cc5a-aa02caac4848", "name": "Fabi", "age": 40 }
+    {
+      "id": "c04277b7-170f-4cb4-cc5a-aa02caac4848",
+      "name": "Fabi",
+      "age": 40
+    }
   ]
 }
